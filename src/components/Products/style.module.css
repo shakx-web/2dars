@@ -1,0 +1,23 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  row-gap: 50px;
+  justify-content: space-between;
+}
+.cartFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+  font-size: 20px;
+}
+.cartFooter svg {
+  font-size: 30px;
+  padding: 2.5px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.cartFooter svg:hover {
+  color: #fff;
+  background-color: #000;
+}
